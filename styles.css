@@ -8,6 +8,28 @@ Date Modified: 23-05-25
 
 */
 
-* {
+body {
     background-color: rgb(27, 27, 27);
+    margin: 0;
+    padding: 0
+}
+
+.header {
+    max-width: 100%;
+    background-color: aqua;
+    padding: 3%;
+}
+
+.header-contents {
+    background-color: aquamarine;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contents {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgb(131, 131, 131);
+    box-sizing: border-box;
 }
