@@ -23,7 +23,7 @@ body {
 }
 
 .header-contents {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     color: rgb(255, 255, 255);
     display: flex;
@@ -32,7 +32,7 @@ body {
 }
 
 .contents {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
@@ -51,4 +51,23 @@ body {
     margin: 0 auto;
     size: 1px;
     padding: 10px;
+}
+
+.contents-section-selector {
+    text-align: center;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center
+}
+
+.contents-section-selector-item {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-s-i {
+    max-width: 100%;
+    width: 640px;
+    height: 360px;
 }
