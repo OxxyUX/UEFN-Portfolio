@@ -8,24 +8,30 @@ Date Modified: 23-05-25
 
 */
 
+
+
+
 body {
     background-color: rgb(27, 27, 27);
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
 .header {
     max-width: 100%;
     background-color: rgb(27, 27, 27);
-    padding: 1%;
+    padding: 0.5%;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 10px 12px rgb(22, 22, 22);
 }
 
 .header-contents {
     max-width: 1400px;
     margin: 0 auto;
-    color: rgb(255, 255, 255);
+    color: rgb(243, 240, 240);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,7 +42,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
-    color: rgb(174, 175, 211);
+    color: rgb(198, 162, 202);
 }
 
 
@@ -53,11 +59,28 @@ body {
     padding: 10px;
 }
 
+.header-contents-nav {
+    display: flex;
+    margin-right: 0;
+    margin-left: 39%;
+    align-items: center;
+}
+
+.header-contents-nav-item {
+    margin: 0 auto;
+    size: 1px;
+    padding: 10px;
+}
+
 .contents-section-selector {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    color: rgb(243, 240, 240);
+    background-color: rgb(22, 22, 22);
+
 }
 
 .contents-section-selector-item {
@@ -70,4 +93,29 @@ body {
     max-width: 100%;
     width: 640px;
     height: 360px;
+    margin: 4px;
+}
+
+.contents-screenshots {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.contents-aboutme {
+    margin-top: 8%;
+}
+
+.header-contents-name {
+    margin-top: 0.3%;
+    margin-bottom: 1%;
+    color: rgba(67, 253, 213, 0.822)
+}
+.footer {
+    max-width: 100%;
+    background-color: rgb(27, 27, 27);
+    padding: 1%;
+    box-shadow: 1px 1px 10px 12px rgb(22, 22, 22);
+    text-align: center;
+    color: rgb(243, 240, 240);
 }

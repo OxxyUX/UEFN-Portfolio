@@ -15,7 +15,7 @@ Date Modified: 23-05-25
         <title>OxxyFC | UEFN Portfolio</title>
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles.css">
-
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -23,41 +23,73 @@ Date Modified: 23-05-25
         <div class="header">
             <div class="header-contents">
                 <div style="margin-right: 5%;">
-                    <img src="./Graphics/profile-icon.png" alt="Italian Trulli" style="width:100px;height:100px">
+                    <img src="./Graphics/profile-icon.png" alt="Italian Trulli" style="width:120px;height:120px">
                 </div>
                 <div class="header-contents-name">
-                    <h1 style="font-size: 40px">OxxyFC</h1>
-                    <h2 style="font-weight: 100;">UEFN Developer</h3>
+                    <h1 style="font-size: 60px; margin-bottom: 0; margin-top: 0">OxxyFC</h1>
+                    <h2 style="font-weight: 100; margin-bottom: 0; margin-top: 3%">UEFN Developer</h2>
                 </div>
+
+                <div class="header-contents-nav">
+                    <h2 class="header-contents-nav-item">Portfolio</h2>
+                    <h2 class="header-contents-nav-item" style="opacity: 50%;">Islands</h2>
+                </div>  
                     
 
                 <div class="header-contents-socials">
-                    <div class="header-contents-socials-item"><a href="https://x.com/oxxyfn"><img src="./Graphics/social-x.png" alt="Italian Trulli" style="width:30px;height:30px"></a></div>
-                    <div class="header-contents-socials-item"><a href="https://www.youtube.com/@oxxyfc"><img src="./Graphics/social-yt.png" alt="Italian Trulli" style="width:30px;height:30px"></a></div>
+                    <div class="header-contents-socials-item"><a href="https://x.com/oxxyfn"><img src="./Graphics/social-x.png" alt="Italian Trulli" style="width:40px;height:40px"></a></div>
+                    <div class="header-contents-socials-item"><a href="https://www.youtube.com/@oxxyfc"><img src="./Graphics/social-yt.png" alt="Italian Trulli" style="width:40px;height:40px"></a></div>
                 </div>  
             </div>  
         </div>
 
         <!-- Main webpage contents container -->
         <div class="contents">
+
+
+
+            <!-- Page backdrop -->
+            <div class="contents-backdrop"></div>
+
+
+
+
+
+
+
+
+
+
+            <!-- About me info -->
             <div class="contents-aboutme">
-                <h3 style="font-weight: 100;">Hi, I'm Bryce, also known as OxxyFC! I'm an aspiring game developer from Australia working in Unreal Engine & Unreal Editor for Fortnite (UEFN). I have a strong passion for environment and level design. My game development journey began with Fortnite Creative, and has since evolved into working with UEFN and Unreal Engine. Below features screenshots of environments built in UEFN & Fortnite Creative.</p>
+                <h2 style="font-weight: 100;">Hi, I'm OxxyFC! I'm an aspiring Game/Software Developer from Australia working in Unreal Engine & Unreal Editor for Fortnite (UEFN). I have a strong passion for environment and level design. My game development journey began with Fortnite Creative, and has since evolved into working with UEFN and Unreal Engine. Below features screenshots of environments built in UEFN & Fortnite Creative.</h3>
             </div>
 
+
+
+            <!-- Portfolio section selector -->
             <div class="contents-section-selector">
-                <h3 class="contents-section-selector-item">UEFN</h3>
-                <h3 class="contents-section-selector-item">Fortnite Creative</h3>
+                <h2 class="contents-section-selector-item">UEFN</h2>
+                <h2 class="contents-section-selector-item">Fortnite Creative</h2>
             </div>
 
-            <div class="contents-screenshots">
-                <img class="c-s-i" src="./Graphics/UEFN-Screenshots/HighresScreenshot00072.png">
-                <img class="c-s-i" src="./Graphics/UEFN-Screenshots/HighresScreenshot00121.png">
-                <img class="c-s-i" src="./Graphics/UEFN-Screenshots/HighresScreenshot00103.png">
-                <img class="c-s-i" src="./Graphics/UEFN-Screenshots/HighresScreenshot00107.png">
-                <img class="c-s-i" src="./Graphics/UEFN-Screenshots/ScreenShot00605.png">
-                <img class="c-s-i" src="./Graphics/UEFN-Screenshots/HighresScreenshot00126.png">
-            </div>
-            
+            <!-- Portfolio Galleries (UEFN & FNC) -->
+            <h2>Unreal Editor for Fortnite</h2>
+            <p>Collection of my work built using UEFN.</p>
+            <div class="contents-screenshots" id="gallery-uefn"></div>
+
+
+            <h2>Fortnite Creative Toolset</h2>
+            <p>Collection of my work built using Fortnite Creative.</p>
+            <div class="contents-screenshots" id="gallery-fnc"></div>
+
+            <!-- JS Script -->
+            <script src="gallery.js"></script>
+        </div>
+
+        <div class="footer">
+            <h3>Want to contact me? Twitter DM's are Open! @oxxyfn</h3>
+            © 2025 OxxyFC. All rights reserved.
         </div>
     </body>
 </html>
